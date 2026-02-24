@@ -17,10 +17,10 @@ export default function Hero() {
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
         loop
-        className="h-[600px]"
+        className="h-[650px]"
       >
         {/* Slide 1 */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="relative w-full h-[600px]">
             <Image
               src="/slide1.png"
@@ -31,10 +31,10 @@ export default function Hero() {
             />
 
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/50"></div>
+            {/* <div className="absolute inset-0 bg-black/50"></div>
 
             {/* Text Content */}
-            <div className="absolute inset-0 flex items-center">
+            {/* <div className=" flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
                 <h1 className="text-5xl font-bold mb-4">
                   Cyber Forensic Laboratory
@@ -57,13 +57,24 @@ export default function Hero() {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
+          {/* </div> */} 
+        {/* </SwiperSlide>  */}
+  <SwiperSlide>
+          <div className="relative w-full h-[650px]">
+            <Image
+              src="/slide2.png"
+              alt="Digital Investigation"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-black/10"></div>
           </div>
         </SwiperSlide>
 
         Slide 2
         <SwiperSlide>
-          <div className="relative w-full h-[600px]">
+          <div className="relative w-full h-[650px]">
             <Image
               src="/slide2.png"
               alt="Digital Investigation"

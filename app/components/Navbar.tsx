@@ -20,7 +20,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-md">
+    <header className=" top-0 z-50 backdrop-blur-md">
 
       {/* Top Bar */}
       <div className="bg-[#25671E] text-white shadow-sm">
@@ -105,7 +105,7 @@ export default function Navbar() {
                 </Link>
               ))}
 
-              <button className="bg-[#F2B50B] text-[#1F2937] px-4 py-2 rounded-md font-medium w-fit mx-auto mt-2">
+              <button className="bg-[#F2B50B] text-[#1F2937] px-4 rounded-md font-medium w-fit mx-auto mt-2">
                 Login
               </button>
             </div>
